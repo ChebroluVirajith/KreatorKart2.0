@@ -1,15 +1,15 @@
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Priya Sharma",
-      role: "Content Creator",
-      avatar: "👩‍💻",
-      content: "KreatorKart changed my life! I went from earning nothing to ₹15,000/month just by creating content I love. No follower requirements means everyone has a fair shot.",
-      earnings: "₹15K/month",
+      name: "VYRAL",
+      role: "Self publicity",
+      avatar: "V",
+      content: "Successfully made our self",
+      earnings: "₹2000",
       platform: "Instagram • YouTube",
       gradient: "from-primary via-secondary to-accent"
     },
-    {
+    /*{
       name: "Rahul Gupta",
       role: "Marketing Director, TechFlow",
       avatar: "👨‍💼",
@@ -35,7 +35,7 @@ const Testimonials = () => {
       company: "EcoWear",
       results: "200% awareness boost",
       gradient: "from-primary via-accent to-secondary"
-    }
+    }*/
   ];
 
   return (
@@ -52,13 +52,13 @@ const Testimonials = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-20">
           <h2 className="text-4xl lg:text-6xl font-bold mb-6">
-            Success{" "}
+            Case{" "}
             <span className="text-gradient neon-text animate-glow">
-              Stories
+              Studies
             </span>
           </h2>
           <p className="text-xl text-muted-foreground/80 max-w-2xl mx-auto animate-float">
-            Real creators and brands sharing their KreatorKart journey
+            Wins We’re Proud Of.
           </p>
         </div>
 
@@ -91,7 +91,7 @@ const Testimonials = () => {
               <div className="border-t border-muted/20 pt-4">
                 {testimonial.earnings && (
                   <div className="flex justify-between items-center mb-2">
-                    <span className="text-xs text-muted-foreground/60">Monthly Earnings</span>
+                    <span className="text-xs text-muted-foreground/60">Total Budget</span>
                     <span className="text-sm font-bold text-gradient neon-text animate-pulse">{testimonial.earnings}</span>
                   </div>
                 )}

@@ -15,10 +15,8 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 gradient-neon rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">K</span>
-              </div>
-              <span className="text-xl font-bold text-gradient">KreatorKart</span>
+              
+              <span className="text-xl font-bold text-gradient">VYRAL</span>
             </div>
             <p className="text-muted-foreground/80 leading-relaxed">
               Revolutionizing content monetization by connecting authentic creators with brands that value genuine engagement.
@@ -101,13 +99,12 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-muted pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground/60 text-sm">
-            © 2024 KreatorKart. All rights reserved.
+            © 2024 VYRAL. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-muted-foreground/60 mt-4 md:mt-0">
             <a href="#" className="hover:text-gradient transition-all">Privacy</a>
             <a href="#" className="hover:text-gradient transition-all">Terms</a>
             <a href="#" className="hover:text-gradient transition-all">Cookies</a>
-            <a href="#" className="hover:text-gradient transition-all">Sitemap</a>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 
 /**
  * @author ChebroluVirajith
@@ -8,19 +9,19 @@ import { Button } from "./ui/button";
 const HowItWorks = () => {
   const steps = [
     {
-      icon: "👋",
+      icon: "📝",
       title: "Sign Up & Complete Profile",
       description: "Create your account and showcase your content creation expertise across different platforms.",
       color: "from-primary/20 to-accent/20"
     },
     {
-      icon: "🔍",
+      icon: "🔎",
       title: "Browse Active Campaigns",
       description: "Explore campaigns that match your niche and content style. Filter by category, platform, or payout.",
       color: "from-accent/20 to-secondary/20"
     },
     {
-      icon: "✍️",
+      icon: "📱",
       title: "Create & Submit Content",
       description: "Produce engaging content following brand guidelines. Submit for review through our platform.",
       color: "from-secondary/20 to-primary/20"
@@ -28,7 +29,7 @@ const HowItWorks = () => {
     {
       icon: "💰",
       title: "Get Paid for Views",
-      description: "Earn based on genuine views and engagement. Track earnings in real-time on your dashboard.",
+      description: "Earn based on genuine views and engagement.",
       color: "from-primary/20 to-accent/20"
     }
   ];
@@ -52,7 +53,7 @@ const HowItWorks = () => {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-5xl font-bold mb-4">
-            How <span className="text-gradient">KreatorKart</span> Works
+            How <span className="text-gradient">VYRAL</span> Works
           </h2>
           <p className="text-muted-foreground/80 max-w-2xl mx-auto">
             Join our platform in four simple steps and start monetizing your content creation skills
@@ -103,6 +104,7 @@ const HowItWorks = () => {
 
         {/* CTA Section */}
         <div className="text-center">
+          <Link to="/campaigns">
           <Button
             size="lg"
             variant="outline"
@@ -110,6 +112,7 @@ const HowItWorks = () => {
           >
             <span className="text-gradient group-hover:neon-text">Get Started Now</span>
           </Button>
+          </Link>
         </div>
 
         {/* Floating Elements */}
@@ -122,20 +125,20 @@ const HowItWorks = () => {
         {/* Stats Section */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="glass rounded-2xl p-6 text-center">
-            <div className="text-3xl font-bold text-gradient mb-2">10K+</div>
-            <div className="text-sm text-muted-foreground/80">Active Creators</div>
+            <div className="text-3xl font-bold text-gradient mb-2">INSTAGRAM</div>
+            <div className="text-sm text-muted-foreground/80"></div>
           </div>
           <div className="glass rounded-2xl p-6 text-center">
-            <div className="text-3xl font-bold text-gradient mb-2">₹50L+</div>
-            <div className="text-sm text-muted-foreground/80">Paid to Creators</div>
+            <div className="text-3xl font-bold text-gradient mb-2">YOUTUBE</div>
+            <div className="text-sm text-muted-foreground/80"></div>
           </div>
           <div className="glass rounded-2xl p-6 text-center">
-            <div className="text-3xl font-bold text-gradient mb-2">200+</div>
-            <div className="text-sm text-muted-foreground/80">Brand Partners</div>
+            <div className="text-3xl font-bold text-gradient mb-2">X</div>
+            <div className="text-sm text-muted-foreground/80"></div>
           </div>
           <div className="glass rounded-2xl p-6 text-center">
-            <div className="text-3xl font-bold text-gradient mb-2">98%</div>
-            <div className="text-sm text-muted-foreground/80">Success Rate</div>
+            <div className="text-3xl font-bold text-gradient mb-2">FACEBOOK</div>
+            <div className="text-sm text-muted-foreground/80"></div>
           </div>
         </div>
       </div>

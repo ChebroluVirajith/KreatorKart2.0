@@ -34,7 +34,7 @@ const HeroSection = () => {
                 </span>
               </h1>
               <p className="text-2xl text-muted-foreground leading-relaxed animate-float" style={{ animationDelay: '0.5s' }}>
-                Create content. Get views. Get paid.
+                CREATE→POST→EARN
               </p>
               <p className="text-lg text-muted-foreground/80 max-w-xl animate-float" style={{ animationDelay: '1s' }}>
                 Connect with brands, create authentic content, and earn based on real engagement. 
@@ -71,16 +71,16 @@ const HeroSection = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6">
               <div className="glass card-highlight neon-glow rounded-2xl p-4 backdrop-blur-xl animate-float" style={{ animationDelay: '0s' }}>
-                <div className="text-3xl font-bold text-gradient neon-text">10K+</div>
-                <div className="text-sm text-muted-foreground/80">Active Creators</div>
+                <div className="text-3xl font-bold text-gradient neon-text">CREATE</div>
+                <div className="text-sm text-muted-foreground/80">Create Reels</div>
               </div>
               <div className="glass card-highlight neon-glow rounded-2xl p-4 backdrop-blur-xl animate-float" style={{ animationDelay: '0.5s' }}>
-                <div className="text-3xl font-bold text-gradient neon-text">500+</div>
-                <div className="text-sm text-muted-foreground/80">Brand Partners</div>
+                <div className="text-3xl font-bold text-gradient neon-text">POST</div>
+                <div className="text-sm text-muted-foreground/80">Post Online</div>
               </div>
               <div className="glass card-highlight neon-glow rounded-2xl p-4 backdrop-blur-xl animate-float" style={{ animationDelay: '1s' }}>
-                <div className="text-3xl font-bold text-gradient neon-text">₹2M+</div>
-                <div className="text-sm text-muted-foreground/80">Paid to Creators</div>
+                <div className="text-3xl font-bold text-gradient neon-text">EARN</div>
+                <div className="text-sm text-muted-foreground/80">Earn per view</div>
               </div>
             </div>
           </div>

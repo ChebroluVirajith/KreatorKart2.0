@@ -55,10 +55,8 @@ const Navigation = () => {
               }
             }}
           >
-            <div className="w-8 h-8 gradient-neon rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">K</span>
-            </div>
-            <span className="text-xl font-bold text-gradient">KreatorKart</span>
+           
+            <span className="text-xl font-bold text-gradient">VYRAL</span>
           </div>
 
           {/* Desktop Navigation */}

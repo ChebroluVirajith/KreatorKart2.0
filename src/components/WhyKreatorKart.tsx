@@ -23,7 +23,7 @@ const WhyKreatorKart = () => {
               <h2 className="text-3xl lg:text-5xl font-bold mb-6">
                 Why{" "}
                 <span className="text-gradient animate-glow">
-                  KreatorKart
+                  VYRAL
                 </span>
                 ?
               </h2>
@@ -90,7 +90,7 @@ const WhyKreatorKart = () => {
                     <div className="w-3 h-3 bg-secondary rounded-full animate-pulse" style={{ animationDelay: '0.5s' }}></div>
                     <div className="w-3 h-3 bg-primary rounded-full animate-pulse" style={{ animationDelay: '1s' }}></div>
                   </div>
-                  <div className="text-xs text-muted-foreground/80">KreatorKart Dashboard</div>
+                  <div className="text-xs text-muted-foreground/80">Vyral Dashboard</div>
                 </div>
 
                 {/* Viral Video Stats */}
@@ -125,7 +125,7 @@ const WhyKreatorKart = () => {
                       <div className="text-sm font-medium text-gradient">890K</div>
                     </div>
                     <div className="glass rounded-lg p-3 text-center transform hover:scale-105 transition-transform duration-300">
-                      <div className="text-lg font-semibold">🐦</div>
+                      <div className="text-lg font-semibold">X</div>
                       <div className="text-xs text-muted-foreground/80">X</div>
                       <div className="text-sm font-medium text-gradient">310K</div>
                     </div>
