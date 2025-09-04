@@ -125,6 +125,14 @@ const HeroSection = () => {
                   <div className="text-gradient neon-text font-semibold">₹960 earned!</div>
                 </div>
               </div>
+              <div className="absolute bottom-80 right-80 glass card-highlight neon-glow rounded-2xl px-6 py-3 shadow-lg transform -rotate-6 hover:rotate-0 transition-all duration-500 animate-float" style={{ animationDelay: '0.5s' }}>
+                <div className="flex items-center space-x-2">
+                  <div className="w-8 h-8 rounded-full gradient-neon flex items-center justify-center animate-pulse">
+                    <span className="text-lg">❤️</span>
+                  </div>
+                  <div className="text-gradient neon-text font-semibold">Likes growing!</div>
+                </div>
+              </div>
 
               {/* Floating Stats Card */}
               <div className="absolute bottom-20 left-0 glass card-highlight neon-glow rounded-2xl px-6 py-3 shadow-lg transform rotate-6 hover:rotate-0 transition-all duration-500 animate-float" style={{ animationDelay: '1s' }}>

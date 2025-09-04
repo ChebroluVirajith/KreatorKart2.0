@@ -130,6 +130,9 @@ const WhyKreatorKart = () => {
                       <div className="text-sm font-medium text-gradient">310K</div>
                     </div>
                   </div>
+
+
+                  
                 </div>
               </div>
 

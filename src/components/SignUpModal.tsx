@@ -47,7 +47,7 @@ const SignUpModal = ({ isOpen, onClose }) => {
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-[425px] bg-background glass text-center">
         <DialogHeader>
-          <DialogTitle className="text-gradient text-3xl font-bold">Welcome to KreatorKart</DialogTitle>
+          <DialogTitle className="text-gradient text-3xl font-bold">Welcome to VYRAL</DialogTitle>
         </DialogHeader>
 
         {!showGoogleButton ? (

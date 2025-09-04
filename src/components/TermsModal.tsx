@@ -68,7 +68,7 @@ const TermsModal: React.FC<TermsModalProps> = ({ isOpen, onClose, onAccept }) =>
               <li>
                 <h3 className="font-bold text-lg text-foreground">Who We Are</h3>
                 <p>
-                  Kreatorkart is a creator-brand collaboration platform. We connect brands with verified creators for promotional campaigns and pay creators based on verified, organic views.
+                  VYRAL is a creator-brand collaboration platform. We connect brands with verified creators for promotional campaigns and pay creators based on verified, organic views.
                   <br /><br />
                   <span className="italic">*By signing up or participating in a campaign, you agree to these Terms & Conditions.</span>
                 </p>

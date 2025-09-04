@@ -12,7 +12,7 @@ import { ExternalLink } from 'lucide-react';
  * A page to confirm successful application and redirect to the Google Form.
  */
 
-const GOOGLE_FORM_LINK = "https://docs.google.com/forms/d/e/1FAIpQLSfG63rqOJVnOa8t2brvHjuSLX_NHvuHnxtecq4Fu9vdY1-mfQ/viewform?usp=header"; // REPLACE WITH YOUR GOOGLE FORM LINK
+const GOOGLE_FORM_LINK = "https://forms.gle/CKntLDj4GNZCYnqV6"; // REPLACE WITH YOUR GOOGLE FORM LINK
 
 const ApplicationSuccess: React.FC = () => {
   const navigate = useNavigate();
@@ -51,21 +51,21 @@ const ApplicationSuccess: React.FC = () => {
           </div>
           
           <div className="container mx-auto px-4 lg:px-8 max-w-3xl text-center relative z-10">
-            {/* Success Icon */}
+            {/* Success Icon 
             <div className="mb-8">
               <div className="w-20 h-20 mx-auto rounded-full bg-green-500/20 flex items-center justify-center mb-4">
                 <svg className="w-10 h-10 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-            </div>
+            </div>*/}
 
             <h1 className="text-4xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-primary to-accent bg-clip-text text-transparent">
-              Application Successful!
+              You're 1 step there!!
             </h1>
             
             <p className="text-xl text-muted-foreground mb-4">
-              Thank you for accepting our terms and conditions.
+              Fill out the Google Form below 👇
             </p>
             
             <p className="text-lg text-muted-foreground/80 mb-12 max-w-2xl mx-auto">
@@ -88,16 +88,16 @@ const ApplicationSuccess: React.FC = () => {
                 onClick={handleGoHome}
                 className="border-muted-foreground/30 hover:border-primary/50 hover:bg-primary/10"
               >
-                Return to Home
+                Join our Community
               </Button>
             </div>
 
             <div className="mt-12 p-6 rounded-lg bg-muted/10 border border-muted/20">
               <h3 className="text-lg font-semibold mb-2 text-foreground">What happens next?</h3>
               <div className="text-sm text-muted-foreground space-y-2">
-                <p>• Complete the application form (5-10 minutes)</p>
-                <p>• Our team will review your profile within 2-3 business days</p>
-                <p>• Once approved, you'll receive access to available campaigns</p>
+                <p>• Complete the application form (2-3 minutes)</p>
+                <p>• Join the link shared at the end of the form</p>
+                <p>• Once approved, you'll receive access to the campaign</p>
                 <p>• Start creating content and earning rewards!</p>
               </div>
             </div>

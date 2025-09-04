@@ -5,6 +5,7 @@ import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import { Button } from "../components/ui/button";
 import TermsModal from "../components/TermsModal"; // Import the new modal component
+import { url } from "inspector";
 
 /**
  * @author ChebroluVirajith
@@ -28,10 +29,11 @@ const Campaigns = () => {
     {
       id: 1,
       brand: "VYRAL",
-      logo: "👗",
+      logo: "X",
       payout: "100 coins",
       description: "Promote our brand and earn point to reedem yummy Frankies",
       progress: 75,
+      budget:"₹75 of ₹100 is paid out",
       type: "Fashion",
       platforms: ["Instagram", "YouTube","FaceBook"],
       views: "1.2K",
@@ -44,6 +46,7 @@ const Campaigns = () => {
       payout: "₹49",
       description: "Create trendy fashion content and styling tips for our latest collection",
       progress: 26.8,
+      budget:"₹26.8 of ₹100 is paid out",
       type: "Technology",
       platforms: ["Instagram","FaceBook"],
       views: "1.2K",
@@ -110,9 +113,9 @@ const Campaigns = () => {
                 Fashion
               </Button>
               <Button
-                variant={selectedFilter === 'tech' ? 'default' : 'outline'}
-                className={`gradient-border ${selectedFilter === 'tech' ? 'gradient-neon' : ''}`}
-                onClick={() => setSelectedFilter('tech')}
+                variant={selectedFilter === 'technology' ? 'default' : 'outline'}
+                className={`gradient-border ${selectedFilter === 'technology' ? 'gradient-neon' : ''}`}
+                onClick={() => setSelectedFilter('technology')}
               >
                 Technology
               </Button>
@@ -171,7 +174,7 @@ const Campaigns = () => {
                   {/* Progress Bar */}
                   <div className="mb-4">
                     <div className="flex justify-between text-xs text-muted-foreground/60 mb-1">
-                      <span>Progress</span>
+                      <span>{campaign.budget}</span>
                       <span>{campaign.progress}%</span>
                     </div>
                     <div className="w-full bg-muted/20 rounded-full h-2">

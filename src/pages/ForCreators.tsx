@@ -4,6 +4,7 @@ import { useLocation, Link } from "react-router-dom";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import TestimonialsCarousel from "../components/TestimonialsCarousel";
+import WhyKreatorKart from "@/components/WhyKreatorKart";
 import { ArrowRight } from "lucide-react";
 import { Button } from "../components/ui/button";
 import {
@@ -75,7 +76,7 @@ const ForCreators = () => {
         <>
           If you have more questions, feel free to submit them through our{' '}
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfHVF06Vw9dik_e6U7lCtxjqjlUx5dXv5xF4Nv4G1W94_jFRw/viewform?usp=header" // REPLACE THIS WITH YOUR GOOGLE FORM LINK
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfKNxutcBZdLLHznsjM4nnhur1JyWAgyAj2VDClr5gi2vOQqQ/viewform?usp=dialog" // REPLACE THIS WITH YOUR GOOGLE FORM LINK
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary hover:underline"
@@ -136,13 +137,7 @@ const ForCreators = () => {
                         <div className="absolute inset-0 shimmer"></div>
                     </Link>
                   </Button>
-                  <a 
-                    href="#testimonials"
-                    onClick={handleScrollToTestimonials}
-                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 px-8 gradient-border bg-background interactive-hover group text-center"
-                  >
-                    <span className="text-gradient group-hover:neon-text">See Success Stories</span>
-                  </a>
+                 
                 </div>
               </div>
 
@@ -159,7 +154,7 @@ const ForCreators = () => {
           </div>
         </section>
 
-        <TestimonialsCarousel />
+        <WhyKreatorKart />
         
         {/* Restored FAQ Section */}
         <section className="relative py-16 lg:py-24 overflow-hidden">
@@ -172,7 +167,7 @@ const ForCreators = () => {
                 </span>
               </h2>
               <p className="text-xl text-muted-foreground/80 max-w-2xl mx-auto">
-                Everything you need to know about becoming a KreatorKart creator.
+                Everything you need to know about becoming a VYRAL creator.
               </p>
             </div>
             <div className="max-w-4xl mx-auto">

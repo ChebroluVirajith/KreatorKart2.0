@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 const Testimonials = () => {
   const testimonials = [
-    {
+    /*{
       name: "VYRAL",
       role: "Self publicity",
       avatar: "V",
@@ -9,7 +11,7 @@ const Testimonials = () => {
       platform: "Instagram • YouTube",
       gradient: "from-primary via-secondary to-accent"
     },
-    /*{
+    {
       name: "Rahul Gupta",
       role: "Marketing Director, TechFlow",
       avatar: "👨‍💼",
@@ -124,12 +126,10 @@ const Testimonials = () => {
             <p className="text-lg text-muted-foreground/80 mb-6">Start your journey today and turn your creativity into income</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="gradient-neon text-white px-8 py-3 rounded-xl font-semibold interactive-hover group overflow-hidden relative">
-                <span className="relative z-10">Start as Creator</span>
+               <Link to="/campaigns"><span className="relative z-10">Start as Creator</span></Link>
                 <div className="absolute inset-0 shimmer"></div>
               </button>
-              <button className="gradient-border bg-background px-8 py-3 rounded-xl font-semibold interactive-hover">
-                <span className="text-gradient neon-text">Partner as Brand</span>
-              </button>
+              
             </div>
           </div>
         </div>

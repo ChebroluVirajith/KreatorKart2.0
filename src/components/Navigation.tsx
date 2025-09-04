@@ -83,14 +83,7 @@ const Navigation = () => {
           <div className="hidden md:flex items-center space-x-4">
             {isAuthenticated ? (
               <>
-                <Button 
-                  variant="outline" 
-                  className="gradient-border bg-background text-primary hover:scale-105 transition-transform duration-300"
-                  onClick={() => navigate('/wallet')}
-                >
-                  <Wallet className="w-4 h-4 mr-2" />
-                  Wallet
-                </Button>
+                
                 <Link to="/profile" className="text-muted-foreground hover:text-gradient transition-all">
                   Welcome, {user?.name || 'Creator'}
                 </Link>
